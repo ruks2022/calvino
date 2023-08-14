@@ -695,7 +695,7 @@ nav{
     position: relative;
     padding-bottom: 100px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 .case-study p{
     color: #FF4495;
@@ -719,21 +719,6 @@ nav{
     width: 100%;
     height: 100%;
 }
-.swiper-slide {
-    font-size: 18px;      
-    /* display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center; */
-}
 .slider-content-area{
     position: relative;
     top: 10%;
@@ -745,11 +730,27 @@ nav{
     position: relative;
     width: 100%;
     height: 100%;
+   padding: 100px 3%;
+}
+.case-study-card:nth-child(1) {
     background-image: url('/assets/img/stuffs1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 15px 3%;
+}
+
+.case-study-card:nth-child(2) {
+    background-image: url('/assets/img/stuffs2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.case-study-card:nth-child(3) {
+   background-image: url('/assets/img/stuffs3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .swiper-slide .case-study-card p{
     color: #FF4495;
@@ -776,199 +777,67 @@ nav{
     bottom: 5%;
     
 }
-/*Choose-Style Section*/
 
-.choose-style{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 5rem;
-}
-.main-heading-area{
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-}
-.subheading{
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    text-transform:uppercase;
-}
-.main-heading{
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 42px;
-    text-transform: capitalize;
-}
-.choose-style-img{
-    height: 400px;
-    width: auto;
-    padding-bottom: 10px;
-}
-.choose-style-title{
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    text-transform: capitalize;
-}
 
-/*Features-one*/
-.features-one{
-    padding-bottom: 3rem;
-}
-.features-one-container{
-    position: relative;
+/*emargency-care Section*/
+
+.emargency-care{   
     width: 100%;
-    height: 70vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(182, 37, 25)),url(/assets/img/back-1134x680.jpg);
+    height: 100vh;
+    background-image: url('/assets/img/contact-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
-    
-}
-.gredient-red{
-    position: relative;
-    /* background-image: linear-gradient(0, 0, 0, rgba(182, 37, 25)); */
-    width: 100%;
-    height: 70vh;  
-}
-.features-one-container h1{
-    position: relative;
-    color: #fff;
-    font-size: 28px;
-    width: 60%;
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    left: 150px;
-    right: 150px;
-    top: 150px;
-    bottom: 150px;
-}
-.features-one-container p{
-    position: relative;
-    color: #fff;
-    font-size: 20px;
-    width: 60%;
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    left: 150px;
-    right: 150px;
-    top: 150px;
-    bottom: 150px;
-}
-.feature-one-img{
-    height: 70vh;
-    width: 100%;
-}
-
-
-/*Company Details*/
-.company{
-    padding-bottom: 3rem;
-}
-
-.company-img-area img{
-    width: auto;
-    height:100px;
-    opacity: 0.2;
-}
-.company-img-area>img:hover{
-    opacity: 1;
-    cursor: pointer;
-    transition: ease-in 1s;
-}
-
-/*Blog Section*/
-
-.blog{
     position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-bottom: 5rem;
-    background: #EEEEEE;
 }
-.blog-main-heading-area{
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-}
-.blog-subheading{
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    text-transform:uppercase;
-}
-.blog-main-heading{
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 42px;
-    text-transform: capitalize;
-}
-.blog-img{
-    height: 400px;
-    width: auto;
-    padding-bottom: 20px;
-}
-.blog-title{
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 22px;
-    text-transform: capitalize;
-    padding-bottom: 10px;
-}
-.blog-desc{
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    text-transform: capitalize;
-    padding-bottom: 10px;
-}
-.blog-action{
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    text-transform: capitalize;
-    padding-bottom: 20px;
-    color: #000;
-    text-decoration: none;
-}
-.blog-action i{
-    font-size: 30px;
+.emargency-care-content{
+    width: 550px;
+    height: 90vh;
+    background-image: url('/assets/img/bg-2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
-    top: 7px;
-    left: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-.blog-action:hover{
-    text-decoration: none;
-    color: #000;
+.emargency-care-content p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    width:70%;
 }
-
+.emargency-care-content h2{
+    color: #fff;
+    font-family: "Nunito",sans-serif;
+    font-size: 38px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    position: relative;
+}
+.emargency-care-content button{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+}
 
 /*Footer Section*/
 footer{
-    background-color: #1D1D1F;
+    background-image: url('/assets/img/footer-bg.jpg');
     height: 500px;
     width: 100%;
     padding-top: 100px;
